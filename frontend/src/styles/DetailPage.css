@@ -1,0 +1,54 @@
+.detail-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.7;
+}
+
+.detail-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.detail-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.detail-summary {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #444;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+.detail-content {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.emotion-graph {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+  margin-top: 2rem;
+}

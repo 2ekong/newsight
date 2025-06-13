@@ -1,0 +1,58 @@
+.edit-article-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.edit-article-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.edit-article-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-article-container label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.edit-article-container input,
+.edit-article-container textarea {
+  margin-top: 0.3rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.edit-article-container textarea {
+  resize: vertical;
+}
+
+.edit-article-container button {
+  margin-top: 2rem;
+  padding: 0.75rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.edit-article-container button:hover {
+  background-color: #0f5bb5;
+}
+
+.error-text {
+  margin-top: 1rem;
+  color: red;
+}

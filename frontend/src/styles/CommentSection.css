@@ -1,0 +1,46 @@
+.comment-section {
+  margin-top: 2rem;
+}
+
+.comment-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.comment-nickname {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.comment-date {
+  color: gray;
+  font-size: 0.85rem;
+}
+
+.comment-delete-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 0.85rem;
+  cursor: pointer;
+}

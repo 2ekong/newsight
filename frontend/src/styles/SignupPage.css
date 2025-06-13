@@ -1,0 +1,57 @@
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.signup-left {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.signup-left h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.signup-right {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.signup-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-right input {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.signup-right button {
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-right button:hover {
+  background-color: #333;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane, .right-pane {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-pane {
+  background-color: #f0f0f0;
+  font-size: 1.5rem;
+}
+
+.right-pane .login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.login-form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.login-form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
